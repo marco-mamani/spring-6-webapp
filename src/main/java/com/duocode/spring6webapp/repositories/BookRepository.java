@@ -1,4 +1,4 @@
-package com.duocode.spring6webapp.respositories;
+package com.duocode.spring6webapp.repositories;
 
 import com.duocode.spring6webapp.domain.Book;
 import org.springframework.data.repository.CrudRepository;

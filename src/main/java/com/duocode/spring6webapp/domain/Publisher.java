@@ -71,12 +71,16 @@ public class Publisher {
     this.zipCode = zipCode;
   }
 
-  public Set<Book> getBooks() {
-    return books;
-  }
-
-  public void setBooks(Set<Book> books) {
-    this.books = books;
+  @Override
+  public String toString() {
+    return "Publisher{" +
+        "id=" + id +
+        ", publisherName='" + publisherName + '\'' +
+        ", address='" + address + '\'' +
+        ", city='" + city + '\'' +
+        ", state='" + state + '\'' +
+        ", zipCode='" + zipCode + '\'' +
+        '}';
   }
 
   @Override
@@ -98,15 +102,4 @@ public class Publisher {
     return getId() != null ? getId().hashCode() : 0;
   }
 
-  @Override
-  public String toString() {
-    return "Publisher{" +
-        "id=" + id +
-        ", publisherName='" + publisherName + '\'' +
-        ", address='" + address + '\'' +
-        ", city='" + city + '\'' +
-        ", state='" + state + '\'' +
-        ", zipCode='" + zipCode + '\'' +
-        '}';
-  }
 }

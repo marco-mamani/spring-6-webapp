@@ -1,7 +1,7 @@
 package com.duocode.spring6webapp.services;
 
 import com.duocode.spring6webapp.domain.Book;
-import com.duocode.spring6webapp.respositories.BookRepository;
+import com.duocode.spring6webapp.repositories.BookRepository;
 import org.springframework.stereotype.Service;
 
 @Service
